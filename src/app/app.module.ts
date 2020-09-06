@@ -15,6 +15,7 @@ import { SportsComponent } from './sports/sports.component';
 import { HealthComponent } from './health/health.component';
 import { EntertainmentComponent } from './entertainment/entertainment.component';
 import { ScienceComponent } from './science/science.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { ScienceComponent } from './science/science.component';
     SportsComponent,
     HealthComponent,
     EntertainmentComponent,
-    ScienceComponent
+    ScienceComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
